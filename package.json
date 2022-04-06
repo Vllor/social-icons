@@ -1,28 +1,16 @@
 {
-  "name": "social-icons",
-  "version": "1.0.0",
-  "description": "Web component to create social icons, based on LitElement",
-  "main": "llorca-social-icon.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Vllor/social-icons.git"
-  },
-  "keywords": [
-    "webcomponents",
-    "litelement",
-    "javascript"
-  ],
-  "author": "@vllor",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Vllor/social-icons/issues"
-  },
-  "homepage": "https://github.com/Vllor/social-icons#readme",
+  "name": "llorca-social-icons",
+  "description": "Web component to display icons from the main social networks and communities, based on LitElement.",
+  "main": "llorca-social-icons.js",
   "dependencies": {
-    "lit-element": "^3.2.0",
-    "polymer": "^0.3.0"
+    "@polymer/polymer": "^3.0.0"
+  },
+  "devDependencies": {
+    "@polymer/iron-demo-helpers": "^3.1.0",
+    "@polymer/test-fixture": "^4.0.2",
+    "@webcomponents/webcomponentsjs": "^2.0.0",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "wct-mocha": "^1.0.1"
   }
 }
