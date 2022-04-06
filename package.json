@@ -2,7 +2,7 @@
   "name": "social-icons",
   "version": "1.0.0",
   "description": "Web component to create social icons, based on LitElement",
-  "main": "social-icon.js",
+  "main": "llorca-social-icon.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/Vllor/social-icons#readme",
   "dependencies": {
-    "lit-element": "^3.2.0"
+    "lit-element": "^3.2.0",
+    "polymer": "^0.3.0"
   }
 }
