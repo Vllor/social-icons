@@ -1,33 +1,109 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Social icons demo</title>
+  <style>
 
-    <title>llorca-social-icons demo</title>
+    .facebook {
+      --llorca-social-icon-color: #3A5CA9;
+      --llorca-social-icon-size: 29px;
+    }
+    .google {
+      --llorca-social-icon-color: crimson;
+      --llorca-social-icon-size: 39px;
+    }
+    .twitter {
+      --llorca-social-icon-color: deepskyblue;
+      --llorca-social-icon-size: 49px;
+    }
+    .pinterest {
+      --llorca-social-icon-color: #E20020;
+      --llorca-social-icon-size: 69px;
+    }
+    .linkedin {
+      --llorca-social-icon-color: #006CAC;
+      --llorca-social-icon-size: 59px;
+    }
+    .youtube {
+      --llorca-social-icon-color: #FF0004;
+      --llorca-social-icon-size: 59px;
+    }
+    .whatsapp {
+      --llorca-social-icon-color: #07E26B;
+      --llorca-social-icon-size: 69px;
+    }
+    .instagram {
+      --llorca-social-icon-color: #3A5CA9;
+      --llorca-social-icon-size: 49px;
+    }
+    .gmail {
+      --llorca-social-icon-color: #B93125;
+      --llorca-social-icon-size: 39px;
+    }
+    .snapchat {
+      --llorca-social-icon-color: rgb(199, 180, 10);
+      --llorca-social-icon-size: 29px;
+    }
+    .github {
+      --llorca-social-icon-color: rgb(43, 43, 43);
+      --llorca-social-icon-size: 39px;
+    }
+    
+    </style>
+</head>
+<body>
+  <p>
+    <llorca-social-icon icon="facebook"></llorca-social-icon> 
+    <llorca-social-icon icon="google"></llorca-social-icon>
+    <llorca-social-icon icon="linkedin"></llorca-social-icon> 
+    <llorca-social-icon icon="twitter"></llorca-social-icon>
+    <llorca-social-icon icon="pinterest"></llorca-social-icon>
+    <llorca-social-icon icon="youtube"></llorca-social-icon>
+    <llorca-social-icon icon="whatsapp"></llorca-social-icon>
+    <llorca-social-icon icon="instagram"></llorca-social-icon>
+    <llorca-social-icon icon="gmail"></llorca-social-icon>
+    <llorca-social-icon icon="snapchat"></llorca-social-icon>
+    <llorca-social-icon icon="github"></llorca-social-icon>
+  </p>
 
-    <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+  <p>
+    <llorca-social-icon icon="facebook" class="facebook"></llorca-social-icon>
+  </p>
+  <p>
+    <llorca-social-icon icon="google" class="google"></llorca-social-icon>
+  </p>
+  <p>
+      <llorca-social-icon icon="twitter" class="twitter"></llorca-social-icon>
+    </p>
+  <p>
+    <llorca-social-icon icon="linkedin" class="linkedin"></llorca-social-icon>
+  </p>
+  <p>
+    <llorca-social-icon icon="pinterest" class="pinterest"></llorca-social-icon>
+  </p>
+  <p>
+      <llorca-social-icon icon="whatsapp" class="whatsapp"></llorca-social-icon>
+    </p>
+  <p>
+    <llorca-social-icon icon="youtube" class="youtube"></llorca-social-icon>
+  </p>
+  <p>
+    <llorca-social-icon icon="instagram" class="instagram"></llorca-social-icon>
+  </p>
+  <p>
+    <llorca-social-icon icon="gmail" class="gmail"></llorca-social-icon>
+  </p>
+  <p>
+    <llorca-social-icon icon="snapchat" class="snapchat"></llorca-social-icon>
+  </p>
+  <p>
+    <llorca-social-icon icon="github" class="github"></llorca-social-icon>
+  </p>
+  <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
 
-    <script type="module">
-      import '@polymer/iron-demo-helpers/demo-pages-shared-styles';
-      import '@polymer/iron-demo-helpers/demo-snippet';
-    </script>
-
-    <script type="module" src="../llorca-social-icons.js"></script>
-
-    <custom-style>
-      <style is="custom-style" include="demo-pages-shared-styles">
-      </style>
-    </custom-style>
-  </head>
-  <body>
-    <div class="vertical-section-container centered">
-      <h3>Basic llorca-social-icons demo</h3>
-      <demo-snippet>
-        <template>
-          <llorca-social-icons></llorca-social-icons>
-        </template>
-      </demo-snippet>
-    </div>
-  </body>
+  <script src="../llorca-social-icon.js" type="module"></script>
+</body>
 </html>
