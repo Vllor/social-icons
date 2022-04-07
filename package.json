@@ -3,7 +3,8 @@
   "description": "Web component to display icons from the main social networks and communities, based on LitElement.",
   "main": "llorca-social-icons.js",
   "dependencies": {
-    "@polymer/polymer": "^3.0.0"
+    "@polymer/polymer": "^3.0.0",
+    "lit-element": "^3.2.0"
   },
   "devDependencies": {
     "@polymer/iron-demo-helpers": "^3.1.0",

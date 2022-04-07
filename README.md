@@ -1,21 +1,61 @@
-# \<llorca-social-icons\>
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/owner/my-element)
+# Moved
+
+**This package has moved** and is now available at [@dile/llorca-social-icon](https://github.com/Polydile/llorca-components). Please update your dependencies. This repository is no longer maintained.
+
+# llorca-social-icon
 
 Web component to display icons from the main social networks and communities, based on LitElement.
 
-## Install the Polymer-CLI
+Go to [DEMO page](https://llorca-social-icon.polydile.com)!
 
-First, make sure you have the [Polymer CLI](https://www.npmjs.com/package/polymer-cli) and npm (packaged with [Node.js](https://nodejs.org)) installed. Run `npm install` to install your element's dependencies, then run `polymer serve` to serve your element locally.
+## Usage
 
-## Viewing Your Element
+1) Install the npm package
 
-```
-$ polymer serve
-```
-
-## Running Tests
-
-```
-$ polymer test
+```bash
+npm i social-icon
 ```
 
-Your application is already set up to be tested via [web-component-tester](https://github.com/Polymer/web-component-tester). Run `polymer test` to run your application's test suite locally.
+2) Include the script of the component in your web page or application
+
+```html
+<script type="module">
+  import 'social-icon/llorca-social-icon.js';
+</script>
+```
+
+3) Use the web component
+
+```html
+<llorca-social-icon icon="facebook"></llorca-social-icon>
+```
+
+The icon property is used to set the icon you want to show. There are icons from the main social networks and services. 
+
+## Icons available
+
+The icon property accepts the social icons listed bellow:
+
+- facebook
+- google
+- twitter
+- pinterest
+- linkedin
+- youtube
+- whatsapp
+- instagram
+- gmail
+- snapchat
+- github
+
+Note that the name of the icon is allways in lowercase.
+
+## Custom styles
+
+You can customize the icon styles using CSS Custom Styles.
+
+Custom property | Description | Default
+----------------|-------------|---------
+--llorca-social-icon-color | Icon color | #888
+--llorca-social-icon-size | Icon size (this sets width & height to the same value) | 24px

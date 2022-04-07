@@ -56,4 +56,4 @@ export class LlorcaSocialIcon extends LitElement {
     return icons[icon];
   }
 }
-customElements.define('llorca-social-icon', DileSocialIcon);
+customElements.define('llorca-social-icon', LlorcaSocialIcon);
